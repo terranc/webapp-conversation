@@ -3,15 +3,15 @@ export const APP_ID = `${process.env.NEXT_PUBLIC_APP_ID}`
 export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
-  title: 'Chat APP',
+  title: 'OKX交易知识助手',
   description: '',
-  copyright: '',
+  copyright: 'PinMe',
   privacy_policy: '',
-  default_language: 'zh-Hans',
+  default_language: 'zh-Hant',
 }
 
-export const isShowPrompt = false
-export const promptTemplate = 'I want you to act as a javascript console.'
+export const isShowPrompt = true
+export const promptTemplate = '你好，我是OKX知识库助手， 您可以问题任何关于加密货币交易相关的问题哦～'
 
 export const API_PREFIX = '/api'
 
